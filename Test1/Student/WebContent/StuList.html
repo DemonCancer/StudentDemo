@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>学生列表</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="jquery/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/StuList.js"></script>
+<link href="css/StuList.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="nav">
+	<ul id="nav_ul" class="nav nav-pills nav-justified">
+      <li id="nav_ul_li1" role="presentation" ><a href="#">首页</a></li>
+      <li id="nav_ul_li2" role="presentation" ><a href="Login.html">登录</a></li>
+      <li id="nav_ul_li3" role="presentation"><a href="register.html">注册</a></li>
+      <li id="nav_ul_li4" role="presentation" class="active"><a href="#">操作</a></li>
+      <li id="nav_ul_li5" role="presentation"><a href="#">帮助</a></li>
+      
+	</ul>
+</div>
+<div id="warp">
+	<div id="top">
+    	<form name="search" class="form-inline">
+          <div id="search_userno" class="form-group">
+            <label for="userno">学号：</label>
+            <input type="text" class="form-control" id="userno" placeholder="请输入学号">
+          </div>
+          <div id="search_username" class="form-group">
+            <label for="username">姓名：</label>
+            <input type="text" class="form-control" id="username" placeholder="请输入姓名">
+          </div>
+          <div id="search_profession" class="form-group">
+            <label for="profession">专业：</label>
+            <select class="form-control" id="profession" placeholder="请选择专业">
+                  <option>计算机</option>
+                  <option>英语</option>
+                  <option>物理光电</option>
+                  
+            </select>      
+          </div>
+			<button id="search" type="submit" class="btn btn-info btn-primary">查询</button>
+		</form>
+    </div>
+    
+	<div id="bottom" class="table-responsive">
+    	<table id="stutab" class="table table-hover table-striped">
+        	<thead>
+            	<td>ID</td>
+                <td>学号</td>
+                <td>姓名</td>
+                <td>密码</td>
+                <td>性别</td>
+                <td>年龄</td>
+                <td>出生日期</td>
+                <td>专业</td>
+            </thead>
+            <tr>
+            	<td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>
+            <tr>
+            	<td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>
+        </table>
+    	
+    </div>
+    
+</div>
+
+
+</body>
+</html>
