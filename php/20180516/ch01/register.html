@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录</title>
+<link href="./login.css" rel="stylesheet" type="text/css" />
+    </head> 
+   <body>
+
+<div class="view-container  ">
+  <div id="account_register_phone" class="account-box-wrapper">
+    <div class="account-box">
+      <div class="">
+        <div class="account-form-title">
+          <label>帐号注册</label>
+        </div>
+        <form  method="post" action="register.php">
+        <div class="account-input-area">
+          <input id="c_name" name="c_name" type="text" placeholder="用户名">
+          <span id="nameMessage" ></span>
+        </div>
+        <div class="account-input-area">
+          <input id="c_password" name="c_password" type="password" placeholder="密码">
+          <span id="passMessage" ></span> 
+        </div>
+        <div class="account-input-area">
+          <input id="c_email" name="c_email" type="text" placeholder="邮箱">
+          <span id="nameMessage" ></span>
+        </div>
+        <input type="submit" class="account-button"  value="注册" id="submit" >
+        </form>
+        <div class="account-bottom-tip top-tip">
+          <label></label>
+        </div>
+        <div class="account-bottom-tip ">
+          <label>已注册过帐号？<a href="login.html">点击登录！</a></label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
